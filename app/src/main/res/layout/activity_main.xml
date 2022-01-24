@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "40dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:text="Player X Turn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/button"
+            style = "@style/buttonLayout" />
+
+        <Button
+            android:id = "@+id/button2"
+            style = "@style/buttonLayout" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/buttonLayout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            style = "@style/buttonLayout" />
+
+        <Button
+            android:id="@+id/button5"
+            style = "@style/buttonLayout" />
+
+        <Button
+            android:id="@+id/button6"
+            style = "@style/buttonLayout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/button7"
+            style = "@style/buttonLayout" />
+
+        <Button
+            android:id="@+id/button8"
+            style = "@style/buttonLayout" />
+
+        <Button
+            android:id="@+id/button9"
+            style = "@style/buttonLayout" />
+    </LinearLayout>
+    <Button
+        android:id = "@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text = "RESET"
+        android:layout_marginBottom="15dp"
+        />
+
+</LinearLayout>
